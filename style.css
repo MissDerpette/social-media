@@ -386,3 +386,8 @@ nav {
     color: #626262;
     font-weight: 500;
 }
+
+.post-text a {
+    color: #1876f2 ;
+    text-decoration: none;
+}
