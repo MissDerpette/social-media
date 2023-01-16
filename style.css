@@ -354,12 +354,12 @@ nav {
     align-items: center;
     color: #626262;
     margin-right: 30px;
-    font-size: 1{{{{{3px;
+    font-size: 13px;
 }
 
 .add-post-links img {
     width: 20px;
-    margin-right: 10px;{
+    margin-right: 10px;
 }
 
 .post-container {
@@ -406,7 +406,27 @@ nav {
 
 .activity-icons div img {
     width: 18px;
-   margin-right: 10px; 
+    margin-right: 10px; 
 }
 
-.activity-icons div img
+.activity-icons div {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+
+}
+
+.post-profile-icon {
+    display: flex;
+    align-items: center;
+}
+
+.post-profile-icon img {
+    width: 20px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.post-row a {
+    color: #9a9a9a;
+}
